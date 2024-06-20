@@ -66,7 +66,7 @@ public class RegisterActivity extends AppCompatActivity {
     public static boolean isValid(String password){
         int f1 = 0, f2 = 0, f3 =0;
 
-        if(password.length() < 8){
+        if(password.length() < 5){
             return false;
         }else{
             for(int p = 0; p < password.length(); p++){
